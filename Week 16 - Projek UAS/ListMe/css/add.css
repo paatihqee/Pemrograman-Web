@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sampul-header {
+  width: 100vw;
+  height: 300px;
+  background: url("../img/Frame.png");
+  background-size: cover;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.workspace-section {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.workspace-section .workspace-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+
+  margin-bottom: 20px;
+}
+
+.workspace-section .workspace-desc {
+  font-size: 16px;
+  color: #000000;
+
+  margin-bottom: 30px;
+}
+
+.row-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.row-content .btn {
+  height: 48px;
+  background-color: #f9963a;
+  border: none;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.row-content a {
+  text-decoration: none;
+}

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/font/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sampul-header {
+  width: 100vw;
+  height: 300px;
+  background: url("./img/Frame.png");
+  background-size: cover;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.workspace-section {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.workspace-section .workspace-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000000;
+
+  margin-bottom: 20px;
+}
+
+.workspace-section .workspace-desc {
+  font-size: 16px;
+  color: #000000;
+
+  margin-bottom: 30px;
+}
+
+.list-area {
+  padding: 0px 60px;
+  margin-top: 30px;
+}
+.group-header {
+  width: 100%;
+  height: 60px;
+  padding: 0px 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9963a;
+  border-radius: 10px;
+
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.group-header h6 {
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.to-do {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  background-color: #eaeaea;
+  border-radius: 10px;
+
+  color: #000000;
+  font-size: 16px;
+}
+
+.to-do h6 {
+  margin-bottom: 10px;
+  padding: 0;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.in-progress {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  background-color: #d3e5ff;
+  border-radius: 10px;
+
+  color: #000000;
+  font-size: 16px;
+}
+
+.in-progress h6 {
+  margin-bottom: 10px;
+  padding: 0;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.complete {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  background-color: #d3ffd5;
+  border-radius: 10px;
+
+  color: #000000;
+  font-size: 16px;
+}
+
+.complete h6 {
+  margin-bottom: 10px;
+  padding: 0;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
